@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\Documents\Visual Studio 2012\Projects\NunitStudy\NunitStudy\Project1.nunit" total="1" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-02-24" time="00:46:05">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5477" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.3\bin" machine-name="SCANNOTEBOOK" user="Administrator" user-domain="SCANNOTEBOOK" />
+  <culture-info current-culture="zh-CN" current-uiculture="zh-CN" />
+  <test-suite type="Project" name="D:\Documents\Visual Studio 2012\Projects\NunitStudy\NunitStudy\Project1.nunit" executed="True" result="Failure" success="False" time="0.233" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="D:\Documents\Visual Studio 2012\Projects\NunitStudy\NunitStudy\bin\Debug\NunitStudy.exe" executed="True" result="Failure" success="False" time="0.184" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="NunitStudy" executed="True" result="Failure" success="False" time="0.183" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="TestLargest" executed="True" result="Failure" success="False" time="0.177" asserts="0">
+                <results>
+                  <test-case name="NunitStudy.TestLargest.LargestOf3" executed="True" result="Failure" success="False" time="0.133" asserts="3">
+                    <failure>
+                      <message><![CDATA[  Expected: 9
+  But was:  8
+]]></message>
+                      <stack-trace><![CDATA[在 NunitStudy.TestLargest.LargestOf3() 位置 d:\Documents\Visual Studio 2012\Projects\NunitStudy\NunitStudy\Program.cs:行号 48
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
